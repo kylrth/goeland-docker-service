@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  goeland:
+    image: goeland:latest
+    user: 1000:1000
+    cap_drop:  # remove all capabilities
+      - ALL
+    volumes:
+      - ./data/goeland/:/data/"
+    environment:
+      INTERVAL: 300  # run every 5 minutes
