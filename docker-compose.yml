@@ -8,5 +8,3 @@ services:
       - ALL
     volumes:
       - ./data/goeland/:/data/"
-    environment:
-      INTERVAL: 300  # run every 5 minutes

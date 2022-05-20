@@ -1,6 +1,6 @@
 # goeland docker service
 
-A distroless [goeland](https://github.com/slurdge/goeland) Docker image that runs at an interval. Be sure to set the `INTERVAL` environment variable at runtime; see the example [docker-compose.yml](docker-compose.yml).
+A distroless [goeland](https://github.com/slurdge/goeland) Docker image that runs as a daemon.
 
 ## building
 
